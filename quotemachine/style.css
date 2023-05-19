@@ -3,28 +3,34 @@
     max-width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+body{
+    background-color: rgb(0, 0, 0);
+}
 
 #qbox {
-    color: red;
+    color: rgb(30, 255, 0);
     width: 500px;
     min-height: 100px;
-    border: 1px solid red;
     margin: 30% auto 20px;
     padding: 10px 20px 2px;
     border-radius: 5px;
-    background-color: #ffffff;
+    background-color: #ffffff !important;
+   
 }
 
 #quote-text{
-    font-size: 20px;
+    font-size: 26px;
+    font-weight: 500;
+    color:black;
 }
 
 #buttons {
-    border: 1px solid blue;
+ 
     margin: 10px 0px 20px;
     padding: 5px;;
     display: flex;
     align-items: center;
+    background-color: :blue;
 }
 
 .icon {
@@ -36,11 +42,14 @@
 
 .new-quote {
     margin: auto 10px auto auto;
-    padding: 2px;
-    height: 25px;
+    padding: 4px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: black;
+    color:#ffffff;
 }
 .icon{
-    color:white;
+   border-radius: 5px;
 }
 
 
@@ -48,4 +57,5 @@
     margin: 3px auto;
     padding: 2px auto;
     text-align: center;
+    color:#ffffff;
 }
