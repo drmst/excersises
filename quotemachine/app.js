@@ -6,7 +6,7 @@ newQuoteButton.addEventListener("click", function () {
     const randomColorText = Math.random()
     console.log(randomColorText);
     if (randomColorText <= 0.1) {
-        quote.innerHTML = "Deadlines just aren't real to me until I'm staring one in the face."
+        quote.innerHTML = " Deadlines just aren't real to me until I'm staring one in the face."
         
         for(let i=0;i<randomColor.length;i++){
             randomColor[i].style.backgroundColor="red"
@@ -16,7 +16,7 @@ newQuoteButton.addEventListener("click", function () {
         document.body.appendChild(quote.innerHTML);
     }
     else if (0.1<randomColorText <= 0.2) {
-        quote.innerHTML = "A deadline is negative inspiration. Still, it's better than no inspiration at all."
+        quote.innerHTML = " A deadline is negative inspiration. Still, it's better than no inspiration at all."
         
         for(let i=0;i<randomColor.length;i++){
             randomColor[i].style.backgroundColor="green"
@@ -25,7 +25,7 @@ newQuoteButton.addEventListener("click", function () {
         document.body.appendChild(quote.innerHTML);
     }
     else if (0.2<randomColorText <= 0.3) {
-        quote.innerHTML = "I don't need time, I need a deadline."
+        quote.innerHTML = " I don't need time, I need a deadline."
         
         for(let i=0;i<randomColor.length;i++){
             randomColor[i].style.backgroundColor="blue"
@@ -34,7 +34,7 @@ newQuoteButton.addEventListener("click", function () {
         document.body.appendChild(quote.innerHTML);
     }
     else if (0.3<randomColorText <= 0.4) {
-        quote.innerHTML = "Dreams don't have timelines, deadlines, and aren't always in straight lines."
+        quote.innerHTML = " Dreams don't have timelines, deadlines, and aren't always in straight lines."
         
         for(let i=0;i<randomColor.length;i++){
             randomColor[i].style.backgroundColor="grey"
@@ -43,7 +43,7 @@ newQuoteButton.addEventListener("click", function () {
         document.body.appendChild(quote.innerHTML);
     }
     else if (0.4<randomColorText <= 0.5) {
-        quote.innerHTML = "Normally I miss deadlines like a storm trooper misses Jedi."
+        quote.innerHTML = " Normally I miss deadlines like a storm trooper misses Jedi."
         
         for(let i=0;i<randomColor.length;i++){
             randomColor[i].style.backgroundColor="orange"
@@ -52,7 +52,7 @@ newQuoteButton.addEventListener("click", function () {
         document.body.appendChild(quote.innerHTML);
     }
     else if (0.5<randomColorText <= 0.6) {
-        quote.innerHTML = "There's nothing an artist needs more - even more than excellent tools and stamina - than a deadline."
+        quote.innerHTML = " There's nothing an artist needs more - even more than excellent tools and stamina - than a deadline."
         
         for(let i=0;i<randomColor.length;i++){
             randomColor[i].style.backgroundColor="brown"
@@ -61,7 +61,7 @@ newQuoteButton.addEventListener("click", function () {
         document.body.appendChild(quote.innerHTML);
     }
     else if (0.6<randomColorText <= 0.7) {
-        quote.innerHTML = "There’s no getting out alive, but you hope to avoid a deadline."
+        quote.innerHTML = " There’s no getting out alive, but you hope to avoid a deadline."
         
         for(let i=0;i<randomColor.length;i++){
             randomColor[i].style.backgroundColor="DarkSlateBlue"
@@ -70,7 +70,7 @@ newQuoteButton.addEventListener("click", function () {
         document.body.appendChild(quote.innerHTML);
     }
     else if (0.7<randomColorText <= 0.8) {
-        quote.innerHTML = "Respect your deadline like it’s a field marshal."
+        quote.innerHTML = " Respect your deadline like it’s a field marshal."
         
         for(let i=0;i<randomColor.length;i++){
             randomColor[i].style.backgroundColor="Fuchsia"
@@ -79,7 +79,7 @@ newQuoteButton.addEventListener("click", function () {
         document.body.appendChild(quote.innerHTML);
     }
     else if (0.8<randomColorText <= 0.9) {
-        quote.innerHTML = "Deadline-induced quality issues: a problem all over the galaxy."
+        quote.innerHTML = " Deadline-induced quality issues: a problem all over the galaxy."
         
         for(let i=0;i<randomColor.length;i++){
             randomColor[i].style.backgroundColor="MediumSlateBlue"
@@ -88,7 +88,7 @@ newQuoteButton.addEventListener("click", function () {
         document.body.appendChild(quote.innerHTML);
     }
     else if (0.9<randomColorText <= 1) {
-        quote.innerHTML = "I do however like to tell people, especially regarding writing and deadlines: Don't be perfect, just be done."
+        quote.innerHTML = " I do however like to tell people, especially regarding writing and deadlines: Don't be perfect, just be done."
         
         for(let i=0;i<randomColor.length;i++){
             randomColor[i].style.backgroundColor="Salmon"
