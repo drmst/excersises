@@ -5,16 +5,18 @@
 }
 body{
     background-color: rgb(0, 0, 0);
+    transition: 0.6s;
 }
 
 #qbox {
     color: rgb(30, 255, 0);
     width: 500px;
     min-height: 100px;
-    margin: 30% auto 20px;
+    margin: 200px auto 20px;
     padding: 10px 20px 2px;
     border-radius: 5px;
-    background-color: #ffffff !important;
+    background-color: #ffffff ;
+    
    
 }
 
@@ -22,6 +24,7 @@ body{
     font-size: 26px;
     font-weight: 500;
     color:black;
+    
 }
 
 #buttons {
@@ -30,7 +33,6 @@ body{
     padding: 5px;;
     display: flex;
     align-items: center;
-    background-color: :blue;
 }
 
 .icon {
@@ -48,8 +50,16 @@ body{
     background-color: black;
     color:#ffffff;
 }
+
+.new-quote:hover{
+    opacity: 80%;
+}
 .icon{
    border-radius: 5px;
+}
+
+.icon:hover{
+    opacity: 80%;
 }
 
 
